@@ -1,0 +1,27 @@
+# .dockerignore file
+
+# Ignore node_modules directory as it's not needed in the Docker image
+node_modules
+npm-debug.log
+
+# Ignore local environment files
+.env
+
+# Ignore build output as we build it inside the Docker container
+build
+
+# Ignore git-related files and directories
+.git
+.gitignore
+
+# Ignore Dockerfile and Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore any logs or temporary files
+*.log
+*.tmp
+
+# Ignore the README and other documentation files (optional)
+README.md
+*.md
